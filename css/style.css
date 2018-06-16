@@ -1315,7 +1315,7 @@ ul.slides li {
     }
 
     .hero h1 {
-        font-size: 100px;
+        font-size: 70px;
         line-height: 80px;
         margin-top: 65px;
     }
@@ -1339,6 +1339,9 @@ ul.slides li {
     .wp2, .wp4, .wp5, .light-box {
         margin-bottom: 30px;
     }
+    .mobile-only {
+        display: block !important;
+    }
 }
 
 /* xGA iPad */
@@ -1354,12 +1357,29 @@ ul.slides li {
     .subscribe {
         background-attachment: scroll;
     }
+
+    .show-menu .menu-wrap {
+        height: 200px;
+    }
+
+    .mobile-only {
+        display: block !important;
+    }
+
+    .move-center {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
 }
 
 /* 1200px (Small Desktop,Netbook) */
 @media screen and (max-width: 1280px) {
     .wp3 {
         background-position: 50px 0;
+    }
+
+    .mobile-only {
+        display: none;
     }
 }
 
@@ -1380,6 +1400,10 @@ ul.slides li {
 
     .wp2, .wp4, .wp5, .light-box {
         margin-bottom: 30px;
+    }
+
+    .mobile-only {
+        display: none;
     }
 }
 
@@ -1403,6 +1427,7 @@ ul.slides li {
     }
 
     .hero {
+        background: none;
         padding-bottom: 0;
     }
 
@@ -1430,6 +1455,11 @@ ul.slides li {
 
     .show-menu .menu-wrap {
         height: 100%;
+    }
+
+    .move-center {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
     }
 }
 
@@ -1824,7 +1854,6 @@ form label.error {
 
 .move-center {
     margin-left: 20%;
-
 }
 
 .sendMessage {
@@ -1840,4 +1869,8 @@ form label.error {
 .no-padding {
     padding-left: 0px !important;
     padding-right: 0px !important;
+}
+
+.mobile-only {
+    display: none;
 }

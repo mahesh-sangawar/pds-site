@@ -23,6 +23,7 @@
     <link href="css/ytv.css" rel="stylesheet">
     <!-- Custom Favicon -->
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,17 +47,17 @@ HEADER SECTION
             <div class="menu-wrap">
                 <nav class="menu">
                     <!-- Menu Links -->
-                    <div class="icon-list">
-                        <a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-                        <a href="index.html#youtube"><i class="fa fa-fw fa-youtube-play"></i><span>Youtube</span></a>
-                        <a href="index.html#makeup"><i class="fa fa-fw fa-paint-brush"></i><span>Makeup</span></a>
-                        <a href="index.html#photography"><i class="fa fa-fw fa-camera"></i><span>Photography</span></a>
-                        <a href="index.html#service"><i class="fa fa-fw fa-film"></i><span>Production</span></a>
-                        <a href="index.html#service"><i class="fa fa-fw fa-bullhorn"></i><span>Digital Marketing</span></a>
-                        <a href="index.html#service"><i class="fa fa-fw fa-code"></i><span>Web Development</span></a>
-                        <!--<a href="index.html#service"><i class="fa fa-fw fa-paper-plane"></i><span>Paritivity</span></a>-->
-                        <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-                        <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+                    <div id="menu-items" class="icon-list">
+                        <a href="#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+                        <a href="#youtube"><i class="fa fa-fw fa-youtube-play"></i><span>Youtube</span></a>
+                        <a href="#makeup"><i class="fa fa-fw fa-paint-brush"></i><span>Makeup</span></a>
+                        <a href="#photography"><i class="fa fa-fw fa-camera"></i><span>Photography</span></a>
+                        <a href="#service"><i class="fa fa-fw fa-film"></i><span>Production</span></a>
+                        <a href="#service"><i class="fa fa-fw fa-bullhorn"></i><span>Digital Marketing</span></a>
+                        <a href="#service"><i class="fa fa-fw fa-code"></i><span>Web Development</span></a>
+                        <!--<a href="#service"><i class="fa fa-fw fa-paper-plane"></i><span>Paritivity</span></a>-->
+                        <a href="#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+                        <a href="#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
                     </div>
                 </nav>
             </div>
@@ -69,12 +70,12 @@ HEADER SECTION
             <!-- Slider Button (don't edit!)-->
             <div class="row">
                 <div class="col-md-12 text-right navicon">
-                    <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                    <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
                 </div>
             </div>
             <!-- HEADER HEADLINE -->
             <div class="row">
-                <div class="col-md-8 col-md-offset-1 inner">
+                <div class="col-sm-12 col-md-8 col-md-offset-1 inner">
                     <h1 class="animated fadeInDown">
                         P<span style="color:#E04343;">A</span>RIMITI<br/>
                         <span>DH<span style="color:#FFE800">A</span>GE</span>
@@ -86,9 +87,9 @@ HEADER SECTION
                 </div>
             </div>
             <!-- Learn More Button -->
-            <div class="row">
+            <div class="row hidden-xs">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                    <a href="index.html#youtube" class="scrollto wow fadeInUp delay-5s ">
+                    <a href="#youtube" class="scrollto wow fadeInUp delay-5s ">
                         <p>SEE MORE</p>
                         <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
                     </a>
@@ -333,7 +334,7 @@ CONTACT SECTION
 
 <section class="text-center section-padding contact-wrap" id="contact">
     <!-- To Top Button -->
-    <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+    <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
     <div class="container">
         <!-- Headline -->
         <div class="row">
@@ -392,7 +393,10 @@ CONTACT SECTION
                                                 </div>
                                             </div>
                                         </div>
-
+                                        <div class="hidden-md hidden-lg">
+                                            <br class="mobile-only">
+                                            <br class="mobile-only">
+                                        </div>
                                         <div role="listitem"
                                              class="col-md-6 freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem"
                                              jsname="ibnC6b"
@@ -424,7 +428,7 @@ CONTACT SECTION
                                         </div>
                                         <br>
                                         <br>
-                                        <br>
+                                        <br class="hidden-xs hidden-sm">
                                         <div role="listitem"
                                              class="col-md-6 freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem"
                                              jsname="ibnC6b"
@@ -453,7 +457,10 @@ CONTACT SECTION
                                                 </div>
                                             </div>
                                         </div>
-
+                                        <div class="hidden-md hidden-lg">
+                                            <br class="mobile-only">
+                                            <br class="mobile-only">
+                                        </div>
                                         <div role="listitem"
                                              class="col-md-6 freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem"
                                              jsname="ibnC6b"
@@ -485,7 +492,7 @@ CONTACT SECTION
                                         </div>
                                         <br>
                                         <br>
-                                        <br>
+                                        <br class="hidden-xs hidden-sm">
                                         <div role="listitem"
                                              class="col-md-12 freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem"
                                              jsname="ibnC6b"
@@ -511,9 +518,9 @@ CONTACT SECTION
                                         </div>
                                         <br>
                                         <br>
-                                        <br>
-                                        <br>
-                                        <br>
+                                        <br class="hidden-xs hidden-sm">
+                                        <br class="hidden-xs hidden-sm">
+                                        <br class="hidden-xs hidden-sm">
                                         <div class="freebirdFormviewerViewNavigationNavControls" jscontroller="lSvzH"
                                              jsaction="rcuQ6b:npT2md;JIbuQc:Gl574d(QR6bsb),V3upec(GeGHKb),HiUbje(M2UYVd),NPBnCf(OCpkoe);"
                                              data-shuffle-seed="-8928165395131703412"
@@ -567,10 +574,10 @@ CONTACT SECTION
         <div class="row">
             <div class="col-md-12">
                 <ul class="social-buttons">
-                    <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                    <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/vj_parimiti/" class="social-btn"><i class="fa fa-instagram"></i></a></li><!-- twitter -->
+                    <li><a href="https://www.facebook.com/rj.pari03" class="social-btn"><i class="fa fa-facebook"></i></a></li>
                     <!-- facebook -->
-                    <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
+                    <li><a href="https://www.youtube.com/channel/UCMS-fsamPc6tXD7f1dma8fw" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
                 </ul>
             </div>
         </div>
@@ -637,7 +644,7 @@ FOOTER SECTION END
             browsePlaylists: true,
             controls: false,
             playlist: 'PLM55aLnszNGLTYD_KVAt52mjrEZDvCZVq',
-            autoplay: false,
+            autoplay: true,
             responsive: true,
         });
         /*     window.controller = new YTV('frame2', {
@@ -656,7 +663,7 @@ FOOTER SECTION END
             accent: '#008D54',
             browsePlaylists: true,
             controls: false,
-            playlist: 'PLM55aLnszNGLTYD_KVAt52mjrEZDvCZVq',
+            playlist: 'PLM55aLnszNGIi2RT51MsFZtwhg6MNb1xQ',
             autoplay: false,
             responsive: true,
         });

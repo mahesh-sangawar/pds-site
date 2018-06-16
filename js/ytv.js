@@ -352,9 +352,9 @@
                             list += '<span><i class="ytv-arrow down"></i>' + (user.title) + '</span>';
                             list += '</a>';
                             list += '</div>';
-
+                            console.log(videos);
                             list += '<div class="ytv-list-inner"><ul>';
-                            for (i = 0; i < videos.length; i++) {
+                            for (i = videos.length -1; i >= 0; i--) {
                                 if (videos[i].status.embeddable) {
                                     var video = {
                                         title: videos[i].snippet.title,

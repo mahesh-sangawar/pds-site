@@ -47,6 +47,10 @@ $(window).load(function() {
 		$('.pull').slideToggle();
 	});
 
+    $('#menu-items a').click(function() {
+		console.log("inside click event");
+		$('#open-button').click();
+    });
 });
 
 
